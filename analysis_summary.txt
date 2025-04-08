@@ -1,7 +1,7 @@
 Air Quality Analysis Summary - Beaumont Area
 ===========================================
 
-Date: [Current Date]
+Date: April 8, 2024
 Author: aritrode29
 
 1. Overview
@@ -10,7 +10,11 @@ This analysis examines air quality data from two monitoring stations in the Beau
 - Beaumont Downtown
 - Nederland 17th Street
 
-The study focuses on identifying and analyzing compounds associated with refinery operations, with concentrations limited to 50 µg/m³ for better visualization of lower ranges.
+The study focuses on identifying and analyzing compounds associated with refinery operations, with concentrations analyzed in two ranges:
+- Low concentration compounds (< 2 µg/m³, shown in ng/m³)
+- High concentration compounds (≥ 2 µg/m³, shown in µg/m³)
+
+This dual-scale approach provides better resolution for both trace-level compounds and those with higher concentrations, enabling more detailed analysis of air quality patterns and their potential health impacts.
 
 2. Key Findings
 -------------
@@ -36,10 +40,17 @@ C. Alkanes (Blue)
 
 2.2 Concentration Patterns
 -------------------------
-- Most compounds show concentrations well below 50 µg/m³
-- Aromatics generally show higher concentrations than other categories
-- Clear diurnal patterns observed in refinery compounds
-- Weekly patterns suggest operational variations
+Low Concentration Compounds (< 2 µg/m³):
+- Most compounds fall in this range
+- Better visualized in ng/m³ units
+- Clear patterns in diurnal variations
+- More sensitive to operational changes
+
+High Concentration Compounds (≥ 2 µg/m³):
+- Primarily aromatic compounds
+- More stable patterns
+- Stronger correlation with refinery operations
+- More pronounced seasonal variations
 
 2.3 Site Comparisons
 -------------------
@@ -47,38 +58,71 @@ Beaumont Downtown:
 - Higher concentrations of aromatics
 - More pronounced daily variations
 - Stronger correlation between refinery compounds
+- More compounds in high concentration range
 
 Nederland 17th Street:
 - More balanced distribution of compounds
 - Slightly lower overall concentrations
 - More consistent patterns throughout the week
+- More compounds in low concentration range
 
 3. Visualization Insights
 -----------------------
 
 3.1 Distribution Plots
 ---------------------
-- Box plots show clear differences between compound categories
-- Aromatics show wider concentration ranges
-- Olefins and alkanes show more consistent distributions
-- Outliers primarily in aromatic compounds
+Low Concentration Compounds:
+- Box plots show detailed variations in ng/m³
+- Better resolution of subtle differences
+- Clear identification of baseline levels
+- More sensitive to operational changes
+
+High Concentration Compounds:
+- Box plots show broader concentration ranges
+- Aromatics dominate the high concentration range
+- More consistent patterns across time
+- Stronger correlation with refinery operations
 
 3.2 Temporal Patterns
 --------------------
-Hourly:
-- Peak concentrations typically in early morning
-- Lowest concentrations in late afternoon
-- Refinery compounds show more pronounced daily cycles
+Hourly Patterns:
+Low Concentration:
+- More sensitive to operational changes
+- Clearer diurnal patterns
+- Better resolution of peak periods
+- More variable throughout the day
 
-Weekly:
-- Higher concentrations on weekdays
-- Lower concentrations on weekends
-- Consistent patterns across both sites
+High Concentration:
+- More stable patterns
+- Stronger correlation with refinery operations
+- More pronounced peak periods
+- Clearer operational patterns
 
-Monthly:
-- Seasonal variations in concentrations
-- Higher levels during colder months
-- More stable patterns in warmer months
+Weekly Patterns:
+Low Concentration:
+- More sensitive to operational changes
+- Clearer weekend/weekday differences
+- Better resolution of operational patterns
+- More variable throughout the week
+
+High Concentration:
+- More consistent patterns
+- Stronger correlation with refinery operations
+- Clearer operational patterns
+- More stable throughout the week
+
+Monthly Trends:
+Low Concentration:
+- More sensitive to seasonal changes
+- Better resolution of seasonal patterns
+- Clearer identification of trends
+- More variable throughout the year
+
+High Concentration:
+- More stable seasonal patterns
+- Stronger correlation with refinery operations
+- Clearer operational patterns
+- More consistent throughout the year
 
 4. Health Impact Analysis
 ----------------------
@@ -164,16 +208,23 @@ Special consideration needed for:
 
 5. Correlation Analysis
 ----------------------
-- Strong correlations between aromatic compounds
-- Moderate correlations between olefins
-- Weak correlations between alkanes
-- Site-specific correlation patterns observed
+Low Concentration Compounds:
+- More variable correlations
+- Sensitive to operational changes
+- Better resolution of relationships
+- More complex patterns
+
+High Concentration Compounds:
+- Stronger correlations
+- More consistent patterns
+- Clearer relationships
+- More stable correlations
 
 6. Recommendations
 -----------------
 1. Monitoring Focus:
-   - Increase focus on aromatic compounds
-   - Implement real-time monitoring for key refinery compounds
+   - Maintain separate analysis for low and high concentration compounds
+   - Implement real-time monitoring for both ranges
    - Consider additional monitoring points near refinery operations
 
 2. Data Collection:
@@ -182,13 +233,14 @@ Special consideration needed for:
    - Implement automated quality control checks
 
 3. Analysis Improvements:
+   - Continue separate analysis for concentration ranges
    - Add wind direction analysis
    - Include source apportionment
    - Consider adding health impact assessment
 
 7. Limitations
 -------------
-- Concentration limit of 50 µg/m³ may mask some high-concentration events
+- Separate analysis required for different concentration ranges
 - Limited meteorological data available
 - No source-specific attribution included
 - Time resolution limited to hourly averages
@@ -198,7 +250,7 @@ Special consideration needed for:
 1. Short-term:
    - Add real-time monitoring capabilities
    - Implement automated alerts for high concentrations
-   - Expand meteorological data collection
+   - Develop separate thresholds for low and high concentration compounds
 
 2. Long-term:
    - Develop predictive models

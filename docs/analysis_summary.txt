@@ -1,0 +1,234 @@
+Air Quality Analysis Summary - Beaumont Area
+===========================================
+
+Date: [Current Date]
+Author: aritrode29
+
+1. Overview
+----------
+This analysis examines air quality data from two monitoring stations in the Beaumont area:
+- Beaumont Downtown
+- Nederland 17th Street
+
+The study focuses on identifying and analyzing compounds associated with refinery operations, with concentrations limited to 50 µg/m³ for better visualization of lower ranges.
+
+2. Key Findings
+-------------
+
+2.1 Refinery-Associated Compounds
+--------------------------------
+The analysis identified three main categories of refinery-related compounds:
+
+A. Aromatics (Red)
+   - Primary compounds: Benzene, Toluene, Xylenes
+   - Secondary compounds: Ethylbenzene, Styrene, Trimethylbenzenes
+   - Source: Catalytic reforming and other refinery processes
+
+B. Olefins (Teal)
+   - Primary compounds: Ethylene, Propylene
+   - Secondary compounds: 1,3-Butadiene, Butenes
+   - Source: Fluid catalytic cracking units
+
+C. Alkanes (Blue)
+   - Primary compounds: n-Hexane through n-Decane
+   - Secondary compounds: Cyclohexane, Methylcyclohexane
+   - Source: Various refinery processes
+
+2.2 Concentration Patterns
+-------------------------
+- Most compounds show concentrations well below 50 µg/m³
+- Aromatics generally show higher concentrations than other categories
+- Clear diurnal patterns observed in refinery compounds
+- Weekly patterns suggest operational variations
+
+2.3 Site Comparisons
+-------------------
+Beaumont Downtown:
+- Higher concentrations of aromatics
+- More pronounced daily variations
+- Stronger correlation between refinery compounds
+
+Nederland 17th Street:
+- More balanced distribution of compounds
+- Slightly lower overall concentrations
+- More consistent patterns throughout the week
+
+3. Visualization Insights
+-----------------------
+
+3.1 Distribution Plots
+---------------------
+- Box plots show clear differences between compound categories
+- Aromatics show wider concentration ranges
+- Olefins and alkanes show more consistent distributions
+- Outliers primarily in aromatic compounds
+
+3.2 Temporal Patterns
+--------------------
+Hourly:
+- Peak concentrations typically in early morning
+- Lowest concentrations in late afternoon
+- Refinery compounds show more pronounced daily cycles
+
+Weekly:
+- Higher concentrations on weekdays
+- Lower concentrations on weekends
+- Consistent patterns across both sites
+
+Monthly:
+- Seasonal variations in concentrations
+- Higher levels during colder months
+- More stable patterns in warmer months
+
+4. Health Impact Analysis
+----------------------
+4.1 Aromatics Health Implications
+--------------------------------
+A. Benzene:
+   - Carcinogenic compound (IARC Group 1)
+   - Short-term effects: Drowsiness, dizziness, headaches
+   - Long-term effects: Blood disorders, leukemia risk
+   - Observed levels generally below acute health guidelines
+   - Requires continuous monitoring due to no safe threshold
+
+B. Toluene & Xylenes:
+   - Neurological system impacts
+   - Short-term effects: Eye/throat irritation, headaches
+   - Long-term effects: Cognitive function impacts
+   - Concentrations typically below health concern levels
+
+C. Ethylbenzene & Styrene:
+   - Possible carcinogens (IARC Group 2B)
+   - Respiratory system irritants
+   - Neurological effects at high exposures
+   - Current levels below regulatory guidelines
+
+4.2 Olefins Health Implications
+------------------------------
+A. 1,3-Butadiene:
+   - Known carcinogen (IARC Group 1)
+   - Cardiovascular system impacts
+   - Reproductive system effects
+   - Requires careful monitoring despite low concentrations
+
+B. Ethylene & Propylene:
+   - Lower toxicity compared to other compounds
+   - Mild respiratory irritants
+   - No significant long-term effects at observed levels
+   - Serve as indicators for overall refinery emissions
+
+4.3 Alkanes Health Implications
+-----------------------------
+- Generally lower toxicity than aromatics
+- Primary concerns:
+  * Short-term respiratory irritation
+  * Central nervous system effects at high levels
+  * Contribution to ground-level ozone formation
+- Current levels suggest minimal direct health risks
+
+4.4 Vulnerable Populations
+------------------------
+Special consideration needed for:
+1. Children:
+   - More susceptible to respiratory effects
+   - Higher breathing rates relative to body size
+   - Developing organ systems
+
+2. Elderly:
+   - Reduced respiratory function
+   - Pre-existing conditions
+   - Compromised immune systems
+
+3. Individuals with:
+   - Asthma
+   - Cardiovascular disease
+   - Respiratory conditions
+   - Compromised immune systems
+
+4.5 Community Health Recommendations
+---------------------------------
+1. Public Awareness:
+   - Real-time air quality updates
+   - Health advisory systems
+   - Educational programs about air quality
+
+2. Healthcare Provider Engagement:
+   - Alert systems for high concentration events
+   - Tracking of respiratory complaints
+   - Coordination with local clinics
+
+3. Preventive Measures:
+   - Indoor air quality guidelines
+   - Activity restrictions during peak hours
+   - Enhanced ventilation recommendations
+
+5. Correlation Analysis
+----------------------
+- Strong correlations between aromatic compounds
+- Moderate correlations between olefins
+- Weak correlations between alkanes
+- Site-specific correlation patterns observed
+
+6. Recommendations
+-----------------
+1. Monitoring Focus:
+   - Increase focus on aromatic compounds
+   - Implement real-time monitoring for key refinery compounds
+   - Consider additional monitoring points near refinery operations
+
+2. Data Collection:
+   - Maintain current sampling frequency
+   - Consider adding meteorological data
+   - Implement automated quality control checks
+
+3. Analysis Improvements:
+   - Add wind direction analysis
+   - Include source apportionment
+   - Consider adding health impact assessment
+
+7. Limitations
+-------------
+- Concentration limit of 50 µg/m³ may mask some high-concentration events
+- Limited meteorological data available
+- No source-specific attribution included
+- Time resolution limited to hourly averages
+
+8. Future Work
+-------------
+1. Short-term:
+   - Add real-time monitoring capabilities
+   - Implement automated alerts for high concentrations
+   - Expand meteorological data collection
+
+2. Long-term:
+   - Develop predictive models
+   - Include health impact analysis
+   - Implement source apportionment techniques
+
+9. Data Quality
+--------------
+- Data completeness: >95%
+- Quality control checks implemented
+- Outliers identified and documented
+- Consistent sampling methods maintained
+
+10. Technical Details
+------------------
+Analysis Tools:
+- Python 3.8+
+- pandas>=2.0.0
+- matplotlib>=3.7.0
+- seaborn>=0.12.0
+- numpy>=1.24.0
+
+Visualization Parameters:
+- Box plot width: 0.7
+- Opacity: 0.8
+- Line thickness: 2pt
+- Resolution: 300 DPI
+
+11. Contact Information
+----------------------
+For questions or additional information:
+- Email: aritrode12@gmail.com
+- GitHub: https://github.com/aritrode29/Air-Quality---Beaumont-2023 
